@@ -23,11 +23,19 @@ body{
   margin: 0 auto;
   gap: 1rem;
 }
-.cards > div {
-  background-color: dodgerblue;
-  color: #ffffff;
-  /* padding: 1rem; */
-  font-size: 1.5rem;
+.card {
+  color: #111111;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+.card-content{
+  margin-top: 1rem;
+  padding: .7rem;
+}
+.card-footer{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  padding: .7rem;
 }
 
 @media (max-width: 900px) {
