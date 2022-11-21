@@ -3,11 +3,11 @@
   padding: 0;
   box-sizing: border-box;
 }
-img{
+img {
   width: 100%;
   height: 150px;
 }
-body{
+body {
   padding: 1rem;
 }
 .title {
@@ -27,37 +27,38 @@ body{
   color: #111111;
   box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
 }
+
 .card-top:hover {
   cursor: pointer;
   transform: scale(1.04);
 }
-.card-content{
+.card-content {
   margin-top: 1rem;
-  padding: .7rem;
+  padding: 0.7rem;
 }
-.card-footer{
+.card-footer {
   display: flex;
   justify-content: space-between;
   margin-top: 2rem;
-  padding: .7rem;
+  padding: 0.7rem;
   cursor: pointer;
 }
-.card-footer > div :hover{
+.card-footer > div :hover {
   color: green;
 }
 
 @media (max-width: 900px) {
-  .cards{
+  .cards {
     grid-template-columns: repeat(3, 1fr);
   }
 }
 @media (max-width: 600px) {
-  .cards{
+  .cards {
     grid-template-columns: repeat(2, 1fr);
   }
 }
-@media (max-width: 600px) {
-  .cards{
+@media (max-width: 480px) {
+  .cards {
     grid-template-columns: repeat(1, 1fr);
   }
 }
